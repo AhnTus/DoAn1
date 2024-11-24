@@ -1,0 +1,160 @@
+{
+  "faq": [
+    {
+      "question": "How do I predict property prices?",
+      "answer": "Go to the Prediction tab in the sidebar, fill in the property details, and click 'Calculate Price'. The model will then estimate the price based on historical data and the input details."
+    },
+    {
+      "question": "What data is used for predictions?",
+      "answer": "Our model uses property details such as area, floor number, bedrooms, bathrooms, and location from real market data. The more accurate the input, the more precise the prediction."
+    },
+    {
+      "question": "How do I view the data analysis?",
+      "answer": "Navigate to the Data Analysis tab in the sidebar to explore interactive visualizations and insights. You'll be able to see trends, comparisons, and key data points that influence property prices."
+    },
+    {
+      "question": "Can I see a map of properties?",
+      "answer": "Yes, go to the Map tab in the sidebar to view an interactive map of properties. You can filter properties by location and explore their prices on the map."
+    },
+    {
+      "question": "How accurate is the prediction model?",
+      "answer": "The model is trained on a robust dataset and offers high accuracy based on the input provided. However, like all models, its accuracy may vary depending on the quality of input data and market conditions."
+    },
+    {
+      "question": "What should I do if the price prediction seems incorrect?",
+      "answer": "If the price prediction seems incorrect, try re-entering the property details to ensure they are accurate. Additionally, consider market fluctuations that may not be reflected in the data."
+    },
+    {
+      "question": "Can I use this tool to predict the price of any property?",
+      "answer": "Yes, you can input the details of any residential property to predict its price. The model works best with data from properties in similar market conditions."
+    },
+    {
+      "question": "What other insights can I gain from the data analysis?",
+      "answer": "Apart from price trends, the Data Analysis section provides insights into location-based price differences, historical trends, and potential future market behaviors."
+    },
+    {
+      "question": "How do I get started with the platform?",
+      "answer": "Simply navigate to the homepage, where you can explore various features such as price prediction, data analysis, and property maps. You can also contact support if you need any help getting started."
+    },
+    {
+      "question": "Can I compare multiple properties?",
+      "answer": "Yes, you can compare properties side by side to evaluate their features and prices. This can help you make more informed decisions about where to invest."
+    },
+    {
+      "question": "How long has the property been listed for sale?",
+      "answer": "The length of time a property has been listed can affect its price. Properties that have been on the market for a longer time may be priced lower to attract buyers. You can check the listing date in the property details section."
+    },
+    {
+      "question": "What amenities are available in the area of the property you are interested in?",
+      "answer": "The amenities in the area can significantly impact the property's value. This includes things like nearby schools, hospitals, shopping centers, parks, and public transportation options. You can check local listings for more detailed information about the area."
+    },
+    {
+      "question": "Is the property located in a flood-prone area or an area with frequent waterlogging?",
+      "answer": "It is crucial to know if the property is in a flood-prone area. Some regions have a higher risk of flooding, especially during monsoon seasons. You can check local flood maps or consult with real estate agents to see if the area is known for waterlogging or flooding."
+    },
+    {
+      "question": "How do I predict property prices?",
+      "answer": "Go to the Prediction tab in the sidebar, fill in the property details, and click 'Calculate Price'. The model will then estimate the price based on historical data and the input details."
+    },
+    {
+      "question": "What data is used for predictions?",
+      "answer": "Our model uses property details such as area, floor number, bedrooms, bathrooms, and location from real market data. The more accurate the input, the more precise the prediction."
+    },
+    {
+      "question": "How do I view the data analysis?",
+      "answer": "Navigate to the Data Analysis tab in the sidebar to explore interactive visualizations and insights. You'll be able to see trends, comparisons, and key data points that influence property prices."
+    },
+    {
+      "question": "Can I see a map of properties?",
+      "answer": "Yes, go to the Map tab in the sidebar to view an interactive map of properties. You can filter properties by location and explore their prices on the map."
+    },
+    {
+      "question": "How accurate is the prediction model?",
+      "answer": "The model is trained on a robust dataset and offers high accuracy based on the input provided. However, like all models, its accuracy may vary depending on the quality of input data and market conditions."
+    },
+    {
+      "question": "What should I do if the price prediction seems incorrect?",
+      "answer": "If the price prediction seems incorrect, try re-entering the property details to ensure they are accurate. Additionally, consider market fluctuations that may not be reflected in the data."
+    },
+    {
+      "question": "Can I use this tool to predict the price of any property?",
+      "answer": "Yes, you can input the details of any residential property to predict its price. The model works best with data from properties in similar market conditions."
+    },
+    {
+      "question": "What other insights can I gain from the data analysis?",
+      "answer": "Apart from price trends, the Data Analysis section provides insights into location-based price differences, historical trends, and potential future market behaviors."
+    },
+    {
+      "question": "How do I get started with the platform?",
+      "answer": "Simply navigate to the homepage, where you can explore various features such as price prediction, data analysis, and property maps. You can also contact support if you need any help getting started."
+    },
+    {
+      "question": "Can I compare multiple properties?",
+      "answer": "Yes, you can compare properties side by side to evaluate their features and prices. This can help you make more informed decisions about where to invest."
+    },
+    {
+      "question": "How long has the property been listed for sale?",
+      "answer": "The length of time a property has been listed can affect its price. Properties that have been on the market for a longer time may be priced lower to attract buyers. You can check the listing date in the property details section."
+    },
+    {
+      "question": "What amenities are available in the area of the property you are interested in?",
+      "answer": "The amenities in the area can significantly impact the property's value. This includes things like nearby schools, hospitals, shopping centers, parks, and public transportation options. You can check local listings for more detailed information about the area."
+    },
+    {
+      "question": "Is the property located in a flood-prone area or an area with frequent waterlogging?",
+      "answer": "It is crucial to know if the property is in a flood-prone area. Some regions have a higher risk of flooding, especially during monsoon seasons. You can check local flood maps or consult with real estate agents to see if the area is known for waterlogging or flooding."
+    },
+    {
+      "question": "How can I know the neighborhood's crime rate?",
+      "answer": "Crime rates can influence property values. You can check online databases, local government websites, or ask the local community for information about crime statistics in the area."
+    },
+    {
+      "question": "What is the future development plan for this area?",
+      "answer": "Future developments, such as new infrastructure or commercial projects, can affect property values. You can check with the local government or city planning offices for upcoming projects in the area."
+    },
+    {
+      "question": "How much is the average rent in the area?",
+      "answer": "The rental market can give you an idea of the potential return on investment. You can check real estate websites or local rental listings to find out the average rent in the area."
+    },
+    {
+      "question": "Is the property near a school or university?",
+      "answer": "Properties near schools or universities tend to be in high demand, which can drive up prices. You can check for nearby educational institutions using Google Maps or local listings."
+    },
+    {
+      "question": "Does the property have good resale value?",
+      "answer": "A property’s resale value depends on various factors such as location, condition, and market trends. You can research the area's property history or consult a real estate agent for advice on potential resale values."
+    },
+    {
+      "question": "What is the property tax rate in this area?",
+      "answer": "Property taxes can significantly affect the total cost of ownership. You can check with local tax authorities to find out the property tax rate in the area where the property is located."
+    },
+    {
+      "question": "How many properties are available in this area?",
+      "answer": "The availability of properties can indicate the market's demand and supply balance. A high number of available properties may indicate less demand, while fewer properties may suggest higher demand."
+    },
+    {
+      "question": "Is the property accessible by public transportation?",
+      "answer": "Accessibility to public transportation can make the property more attractive to potential buyers and renters. You can check if the property is near bus stops, metro stations, or other forms of public transport."
+    },
+    {
+      "question": "What is the condition of the property's infrastructure?",
+      "answer": "The overall condition of the property, including its plumbing, electrical systems, and structural integrity, can affect its value. You should consider getting a property inspection before purchasing."
+    },
+    {
+      "question": "Has the property been renovated recently?",
+      "answer": "Renovations can increase the value of a property, especially if they are recent and include modern upgrades. Check the property’s history or ask the seller for details on any recent renovations."
+    },
+    {
+      "question": "How is the weather and climate in the area?",
+      "answer": "The local climate can influence the livability and maintenance costs of a property. Areas with extreme weather conditions, such as heavy snowfall or frequent storms, may have higher maintenance costs."
+    },
+    {
+      "question": "Is there a risk of natural disasters in the area?",
+      "answer": "Some areas are more prone to natural disasters such as earthquakes, wildfires, or hurricanes. It's important to research the risk of natural disasters in the area to ensure your property is safe."
+    },
+    {
+      "question": "How is the area’s real estate market trending?",
+      "answer": "Understanding whether the market is in an upward or downward trend can help you predict future price changes. You can research local real estate market reports or consult with agents to understand trends."
+    }
+  ]
+}

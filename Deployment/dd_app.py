@@ -6,12 +6,15 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import plotly.express as px
+from streamlit_folium import folium_static  
 
 
 import warnings
 warnings.filterwarnings('ignore')
 df = pd.read_csv("Final_Project.csv")
 df.drop('Unnamed: 0', axis=1, inplace=True)  
+dfmap = pd.read_csv("Map_Location.csv")
 
 
 def run_dd_app():
@@ -29,3 +32,10 @@ def run_dd_app():
     # Display location distribution directly
     st.subheader("Location")
     st.dataframe(df["Region"].value_counts().head(30))
+
+    # Interactive Map: Price by Region
+    st.subheader("Price by location on Map")
+    region_map = folium.Map(location=[dfmap['Latitude'].mean(), dfmap['Longitude'].mean()], zoom_start=10)
+    for _, row in dfmap.iterrows():
+        folium.Marker([row['Latitude'], row['Longitude']], popup=f"Price: ${row['USD']}").add_to(region_map)
+    folium_static(region_map)  
