@@ -7,18 +7,23 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
-from streamlit_folium import folium_static  
+from streamlit_folium import folium_static
+import requests
+from io import BytesIO
 
 
 import warnings
 warnings.filterwarnings('ignore')
-df = pd.read_csv("Final_Project.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/AhnTus/STWeb-HousePricePrediction/refs/heads/main/Deployment/Final_Project.csv")
 df.drop('Unnamed: 0', axis=1, inplace=True)  
-dfmap = pd.read_csv("Map_Location.csv")
+dfmap = pd.read_csv("https://raw.githubusercontent.com/AhnTus/STWeb-HousePricePrediction/refs/heads/main/Deployment/Map_Location.csv")
 
 
 def run_dd_app():
-    img1 = Image.open("Real_Estate.jpg")
+
+    url = "https://github.com/user-attachments/assets/7ae34de1-5a39-4a79-ae92-8fa934e721f0"
+    response = requests.get(url)
+    img1 = Image.open(BytesIO(response.content))
     st.image(img1)
 
     # Display dataset directly

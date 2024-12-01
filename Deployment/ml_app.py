@@ -8,11 +8,17 @@ from random import choice
 from streamlit_folium import folium_static
 
 # Load dữ liệu và mô hình
-df = pd.read_csv("Final_Project.csv")
-dfmap = pd.read_csv("Map_Location.csv")
-pickle_in = open('regression_model.pkl', 'rb')
-reg = pickle.load(pickle_in)
+import requests
+import ssl
 
+ssl._create_default_https_context = ssl._create_unverified_context
+
+df = pd.read_csv("https://raw.githubusercontent.com/AhnTus/STWeb-HousePricePrediction/refs/heads/main/Deployment/Final_Project.csv")
+dfmap = pd.read_csv("https://raw.githubusercontent.com/AhnTus/STWeb-HousePricePrediction/refs/heads/main/Deployment/Map_Location.csv")
+
+url = 'https://github.com/AhnTus/STWeb-HousePricePrediction/blob/main/Deployment/regression_model.pkl?raw=true'
+response = requests.get(url)
+reg = pickle.loads(response.content)
 # Dữ liệu tọa độ tĩnh
 predefined_locations = {
     "Marine Drive, Mumbai, Maharashtra": (18.9441, 72.8235),
@@ -135,3 +141,4 @@ def run_ml_app():
 
 if __name__ == '__main__':
     run_ml_app()
+

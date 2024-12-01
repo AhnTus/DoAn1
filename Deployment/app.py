@@ -78,10 +78,12 @@ def apply_styles():
 import json
 import streamlit as st
 
+import requests
+
 def load_faq():
     """Load FAQ data from JSON file."""
-    with open("faq_data.json", "r") as file:
-        data = json.load(file)
+    response = requests.get("https://raw.githubusercontent.com/AhnTus/STWeb-HousePricePrediction/refs/heads/main/Deployment/faq_data.json")
+    data = response.json()
     return data["faq"]
 
 def search_faq(query, faq_data):
@@ -205,9 +207,9 @@ def main():
     elif choice == "💵 Prediction":
         run_ml_app()
     elif choice == "🗺️ Map":
-        path_to_html = "mumbai_property.html"
-        with open(path_to_html, 'r') as f:
-            html_data = f.read()
+        url_to_html = "https://raw.githubusercontent.com/AhnTus/STWeb-HousePricePrediction/refs/heads/main/Deployment/mumbai_property.html"
+        response = requests.get(url_to_html)
+        html_data = response.text
         st.subheader("Map view:")
         components.html(html_data, height=500)
 
